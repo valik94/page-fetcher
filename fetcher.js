@@ -23,6 +23,7 @@ fs.appendFile('./index.html', body, err => {
     console.log(`Downloaded and saved ${count} bytes to ./index.html`);
 })
 
+
 // fs.readFile('/index.html', 'utf8' , (err, data) => {
 //   //let count =0;
 //   if (err) {
